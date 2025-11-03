@@ -2,6 +2,7 @@ import { Controller } from "@hotwired/stimulus"
 
 // Connects to data-controller="map"
 export default class extends Controller {
+  static values = { tickets: Array }
   connect() {
     this.map = L.map('map').setView([51.505, -0.09], 13);
 

@@ -44,4 +44,4 @@
         %td= ticket.excavator.created_at
         %td= ticket.excavator.updated_at
 
-#map.mb-5{ style: "height: 500px; width: 100%;", data: { controller: "map" } }
+#map.mb-5{ style: "height: 500px; width: 100%;", data: { controller: "map", "data-map-tickets-value" => @tickets.to_json } }
