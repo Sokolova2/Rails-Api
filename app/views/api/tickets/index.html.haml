@@ -1,0 +1,47 @@
+%h1 Tickets
+%table.table.mb-5
+  %thead
+    %tr
+      %th{:scope => "col"} ID
+      %th{:scope => "col"} RequestNumber
+      %th{:scope => "col"} SequenceNumber
+      %th{:scope => "col"} RequestType
+      %th{:scope => "col"} ResponseDueDateTime
+      %th{:scope => "col"} PrimaryServiceAreaCode
+      %th{:scope => "col"} AdditionalServiceAreaCodes
+      %th{:scope => "col"} WellKnownText
+      %th{:scope => "col"} CreatedAt
+      %th{:scope => "col"} UpdatedAt
+  %tbody
+    - @tickets.each do |ticket|
+      %tr
+        %th{:scope => "row"}= ticket.id
+        %td= ticket.request_number
+        %td= ticket.sequence_number
+        %td= ticket.request_type
+        %td= ticket.response_due_date_time
+        %td= ticket.primary_service_area_code
+        %td= ticket.additional_service_area_codes
+        %td= ticket.well_known_text
+        %td= ticket.created_at
+        %td= ticket.updated_at
+
+%h2 Excavator
+%table.table.mb-5
+  %thead
+    %tr
+      %th{:scope => "col"} ID
+      %th{:scope => "col"} CompanyName
+      %th{:scope => "col"} Address
+      %th{:scope => "col"} CreatedAt
+      %th{:scope => "col"} UpdatedAt
+  %tbody
+    - @tickets.each do |ticket|
+      %tr
+        %th{:scope => "row"}= ticket.excavator.id
+        %td= ticket.excavator.company_name
+        %td= ticket.excavator.address
+        %td= ticket.excavator.created_at
+        %td= ticket.excavator.updated_at
+
+#map.mb-5{ style: "height: 500px; width: 100%;", data: { controller: "map" } }
