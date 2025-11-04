@@ -8,7 +8,7 @@ gem 'jbuilder'
 gem 'pg', '~> 1.1'
 gem 'propshaft'
 gem 'puma', '>= 5.0'
-gem 'rails', '~> 8.0.4'
+gem 'rails', '~> 8.1.1'
 gem 'stimulus-rails'
 gem 'turbo-rails'
 
