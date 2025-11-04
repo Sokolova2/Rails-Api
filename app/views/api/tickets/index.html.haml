@@ -2,20 +2,20 @@
 %table.table.mb-5
   %thead
     %tr
-      %th{:scope => "col"} ID
-      %th{:scope => "col"} RequestNumber
-      %th{:scope => "col"} SequenceNumber
-      %th{:scope => "col"} RequestType
-      %th{:scope => "col"} ResponseDueDateTime
-      %th{:scope => "col"} PrimaryServiceAreaCode
-      %th{:scope => "col"} AdditionalServiceAreaCodes
-      %th{:scope => "col"} WellKnownText
-      %th{:scope => "col"} CreatedAt
-      %th{:scope => "col"} UpdatedAt
+      %th{ scope: 'col' } ID
+      %th{ scope: 'col' } RequestNumber
+      %th{ scope: 'col' } SequenceNumber
+      %th{ scope: 'col' } RequestType
+      %th{ scope: 'col' } ResponseDueDateTime
+      %th{ scope: 'col' } PrimaryServiceAreaCode
+      %th{ scope: 'col' } AdditionalServiceAreaCodes
+      %th{ scope: 'col' } WellKnownText
+      %th{ scope: 'col' } CreatedAt
+      %th{ scope: 'col' } UpdatedAt
   %tbody
     - @tickets.each do |ticket|
       %tr
-        %th{:scope => "row"}= ticket.id
+        %th{ scope: 'row' }= ticket.id
         %td= ticket.request_number
         %td= ticket.sequence_number
         %td= ticket.request_type
@@ -30,11 +30,11 @@
 %table.table.mb-5
   %thead
     %tr
-      %th{:scope => "col"} ID
-      %th{:scope => "col"} CompanyName
-      %th{:scope => "col"} Address
-      %th{:scope => "col"} CreatedAt
-      %th{:scope => "col"} UpdatedAt
+      %th{ scope: 'col' } ID
+      %th{ scope: 'col' } CompanyName
+      %th{ scope: 'col' } Address
+      %th{ scope: 'col' } CreatedAt
+      %th{ scope: 'col' } UpdatedAt
   %tbody
     - @tickets.each do |ticket|
       %tr

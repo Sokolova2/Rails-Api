@@ -18,7 +18,7 @@ ActiveRecord::Schema[8.0].define(version: 2025_11_03_133037) do
     t.bigint "ticket_id", null: false
     t.string "company_name"
     t.string "address"
-    t.boolean "crew_on_site"
+    t.boolean "crew_on_site", default: true, null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["ticket_id"], name: "index_excavators_on_ticket_id"

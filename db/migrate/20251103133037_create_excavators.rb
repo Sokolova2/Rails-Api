@@ -6,7 +6,7 @@ class CreateExcavators < ActiveRecord::Migration[8.0]
       t.references :ticket, null: false, foreign_key: true
       t.string :company_name
       t.string :address
-      t.boolean :crew_on_site
+      t.boolean :crew_on_site, default: true, null: false
 
       t.timestamps
     end
