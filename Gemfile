@@ -31,9 +31,11 @@ group :development, :test do
 
   gem 'factory_bot_rails'
 
+  gem 'rspec-rails'
   gem 'rubocop', require: false
   gem 'rubocop-rails'
   gem 'rubocop-rspec'
+  gem 'shoulda-matchers', '~> 6.0'
 end
 
 group :development do
@@ -45,6 +47,7 @@ end
 
 group :test do
   gem 'capybara'
+  gem 'rails-controller-testing'
   gem 'selenium-webdriver'
 end
 
