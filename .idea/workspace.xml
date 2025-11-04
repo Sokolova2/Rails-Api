@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6cb61f66-bc93-477d-bbdf-c05270210e90" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/javascript/controllers/map_controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/controllers/map_controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/api/tickets/index.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/api/tickets/index.html.haml" afterDir="false" />
     </list>
@@ -30,7 +32,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "com.intellij.lang.ruby.rbs.tools.collection.workspace.sync.RbsCollectionUpdateProjectActivity#LAST_UPDATE_TIMESTAMP": "1762182296263",
+    "com.intellij.lang.ruby.rbs.tools.collection.workspace.sync.RbsCollectionUpdateProjectActivity#LAST_UPDATE_TIMESTAMP": "1762253652891",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "/home/karina/projects/Api",
     "node.js.detected.package.eslint": "true",
@@ -139,6 +141,8 @@
       <workItem from="1762176584177" duration="3930000" />
       <workItem from="1762180925078" duration="1287000" />
       <workItem from="1762182237363" duration="158000" />
+      <workItem from="1762182417196" duration="185000" />
+      <workItem from="1762253592646" duration="4535000" />
     </task>
     <servers />
   </component>
